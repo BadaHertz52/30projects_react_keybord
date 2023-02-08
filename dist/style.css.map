@@ -1,0 +1,1 @@
+{"version":3,"file":"style.css","mappings":"AAAA,EACE,SACF,CACA,IACE,wBACF","sources":["webpack://keybord/./src/css/style.css"],"sourcesContent":["p {\r\n  color:red;\r\n}\r\ndiv{\r\n  background-color: aliceblue;\r\n}"],"names":[],"sourceRoot":""}
