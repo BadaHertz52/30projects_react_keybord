@@ -65,10 +65,7 @@ export class Keyboard {
   #onKeyDown(event) {
     if (this.#mouseDown) return;
     this.#keyPress = true;
-    this.#inputGroupEl.classList.toggle(
-      "error",
-      /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/.test(event.key)
-    );
+    this.#inputGroupEl.classList.toggle("error", event.key === "Process");
 
     this.#keyboardEl
       .querySelector(`[data-code=${event.code}]`)
