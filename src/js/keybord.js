@@ -1,5 +1,5 @@
 export class Keyboard {
-  #swichEl;
+  #switchEl;
   #fontSelectEl;
   #containerEl;
   #keyboardEl;
@@ -14,7 +14,7 @@ export class Keyboard {
 
   #assignElement() {
     this.#containerEl = document.getElementById("container");
-    this.#swichEl = this.#containerEl.querySelector("#switch");
+    this.#switchEl = this.#containerEl.querySelector("#switch");
     this.#fontSelectEl = this.#containerEl.querySelector("#font");
     this.#keyboardEl = this.#containerEl.querySelector("#keyboard");
     this.#inputGroupEl = this.#containerEl.querySelector("#input-group");
@@ -22,7 +22,7 @@ export class Keyboard {
   }
 
   #addEvent() {
-    this.#swichEl.addEventListener("change", this.#onChangeTheme);
+    this.#switchEl.addEventListener("change", this.#onChangeTheme);
     this.#fontSelectEl.addEventListener("change", this.#onChangeFont);
     document.addEventListener("keydown", this.#onKeyDown.bind(this));
     document.addEventListener("keyup", this.#onKeyUp.bind(this));
