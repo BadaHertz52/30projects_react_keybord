@@ -5,6 +5,7 @@ export class Keyboard {
   #keyboardEl;
   #inputGroupEl;
   #inputEl;
+  //마우스와 키보드 동시에 작동하지 못하도록
   #keyPress = false;
   #mouseDown = false;
   constructor() {
