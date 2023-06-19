@@ -19,9 +19,9 @@
 
 ## <div id="info">1. 프로젝트 소개 </div>
 
-<📷 프로젝트 시뮬레이션>
+<📷 프로젝트 작동 화면>
 
-<img src="./keyboard.gif" alt="visual keyboard simulation" width="80%" height="auto" />
+<img src="./keyboard.gif" alt="visual keyboard" width="80%" height="auto" />
 <br/>
 
 가상 키보드 프로젝트는 하나인 웹팩과 바닐라 자바스크립트를 사용해, 가상 키보드를 만들어 보는 프로젝트이다.
